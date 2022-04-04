@@ -12,8 +12,10 @@ document.getElementById("close").onclick = function(){
     document.getElementById("erroruser").style.display = "none";
 }
 
-let arrobj=JSON.parse(localStorage.data);
-console.log(arrobj);
+if(localStorage.data != undefined){
+    let arrobj=JSON.parse(localStorage.data);
+    console.log(arrobj);    
+}
 
 document.getElementById("button").onclick=function(){ 
     console.log("IN1");

@@ -16,7 +16,7 @@ if(localStorage.data != undefined){
     let arrobj=JSON.parse(localStorage.data);
     console.log(arrobj);    
 }
-
+//jkj
 document.getElementById("button").onclick=function(){ 
     console.log("IN1");
     for(let i=0; i < arrobj.length; i++){

@@ -10,6 +10,7 @@ let bdate;
 let pass;			
 let cpass;
 let position=document.getElementById("position").value;
+localStorage.data;
 if(localStorage.data != undefined){
     callfromlocalstorage();
 }

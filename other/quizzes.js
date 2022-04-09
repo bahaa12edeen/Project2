@@ -333,6 +333,8 @@ if(i < quiz[pos].length){
                         console.log(true);
                         tfans[i-1] = true;
                     }
+
+                    console.log(this);
                 }
             }
 
@@ -413,9 +415,9 @@ document.getElementById("button").onclick = function(){
                 console.log("tfans: "+tfans);
 
                 for (let i = 0; i < conarr.length; i++) {
-                    conarr[i].childNodes[0].childNodes[0].style.display = "none";
+                    conarr[i].childNodes[0].childNodes[0].style.backgroundColor = "unset";
                 }
-                this.childNodes[0].childNodes[0].style.display = "block";
+                this.childNodes[0].childNodes[0].style.backgroundColor = "#215fa7";
                 this.childNodes[1].checked = true;
             }
 

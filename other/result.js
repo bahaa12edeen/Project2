@@ -117,7 +117,7 @@ let chosen = JSON.parse(localStorage.chosen),
                         chcontainer.style.backgroundColor = "rgb(56 178 149 / 50%)";
                     }else{
                         chcontainer.style.backgroundColor = "#c637609c";
-                        radioin.style.display = "block";
+                        radioin.style.backgroundColor = "#215fa7";
 
                     }
                 }

@@ -341,9 +341,10 @@ if(i < quiz[pos].length){
             console.log("tfans: "+tfans);
 
             for (let i = 0; i < conarr.length; i++) {
-                conarr[i].childNodes[0].childNodes[0].style.display = "none";
+                conarr[i].childNodes[0].childNodes[0].style.backgroundColor = "unset";
             }
-            this.childNodes[0].childNodes[0].style.display = "block";
+            this.childNodes[0].childNodes[0].style.backgroundColor = "#215fa7";
+
             this.childNodes[1].checked = true;
         }
         choice.appendChild(chcontainer);
